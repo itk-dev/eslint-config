@@ -1,6 +1,6 @@
 {
   "name": "@itkdev/eslint-config",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Eslint config for ITK Development",
   "main": "index.js",
   "scripts": {
