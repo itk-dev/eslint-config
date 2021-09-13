@@ -1,12 +1,12 @@
 module.exports = {
+  plugins: [
+    'jsdoc'
+  ],
 
-    globals: {
-        MyGlobal: true
-    },
-
-    rules: {
-        semi: [2, "always"]
-    }
-
-};
-
+  extends: [
+    // https://eslint.org/docs/user-guide/getting-started#configuration
+    'eslint:recommended',
+    // https://github.com/gajus/eslint-plugin-jsdoc#configuration
+    'plugin:jsdoc/recommended'
+  ]
+}
